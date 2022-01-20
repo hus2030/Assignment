@@ -16,9 +16,9 @@
 ## Choice of attributes for SalesOrder fact
 ### - RED - keys i considered important , all of them will be NULL except Customer Key 
 ### - GREEN - measures I considered important
-### - Yello2 - dates , I converted them to integer with 112 style to keep them in fact table
-###
-###
+### - Yellow - dates , I converted them to integer with 112 style to keep them in fact table
+
+
 <img src="/question3/photos/faceSaleOrder.jpg" width="1000"/>
 
 
