@@ -30,13 +30,13 @@ def view(conn):
     print("\n \n Printing rows for the query D")
     cursor.execute('''   
     SELECT  c.brand_name,p.product_name, SUM(g.turnover) as turnover , SUM(g.total_acc_revenue) as accounting_revenue
-    FROM [question1].[dbo].[GamePlayTransaction] g
+    FROM (select* from [question1].[dbo].[GamePlayTransaction] where calendar_date BETWEEN '20210101' AND '20210106') g
     LEFT JOIN [question1].[dbo].[Customer] c
     ON c.customer_id = g.customer_id
     LEFT JOIN [question1].[dbo].[ProviderProduct] p
     ON p.provider_product_id = g.provider_product_id
-    GROUP BY g.calendar_date, p.product_name, c.brand_name
-    HAVING g.calendar_date BETWEEN '20210101' AND '20210106'
+    GROUP BY  c.brand_name,p.product_name
+    ORDER BY c.brand_name
      ''')
     for row in cursor.fetchall():
         print(row)
