@@ -1,9 +1,9 @@
 # Question 1
 
-### pip install requirments.txt 
-### Update  connection.ini file with sql server name and the path of csv files for DepositTransaction(Question1a.csv) and GamePlayTransaction(Question1b.csv)
-### then python main.py to run the application 
-### it will output the query results in the console . The results are provided here too
+### -pip install requirments.txt 
+### -update  connection.ini file with sql server name and the path of csv files for DepositTransaction(Question1a.csv) and GamePlayTransaction(Question1b.csv)
+### -then python main.py to run the application 
+### -it will output the query results in the console . The results are provided here too
 
 ### Prequisite notes :
 1) I seperated the csv sheets to different files and uploaded them here (/question1/files/)
