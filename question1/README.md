@@ -6,7 +6,7 @@
 ### it will output the query results in the console . The results are provided here too
 
 ### Prequisite notes :
-1) I seperated the csv sheets to different files and uploaded them here 
+1) I seperated the csv sheets to different files and uploaded them here (/question1/files/)
 2) the path to the csv files should be specified in the configuration ini file
 3) the server name for the database connection screen should also be specified in ini file
 
@@ -22,5 +22,29 @@
 
 <img src="/question1/files/DataModel.jpg" width="1000"/>
 
+### Notes
+1) Ideally we should also have provider tables but I ommitted that for the sake of simplicity
+### 2) customer emails in 2 sheets were the same but with spelling error (.com in gameplayTr. and .om in depositTr.) , I didnt fix that , just considered them different customers for the sake of simplicity
+3) some product names were NULL , i considered Null as different product
+
 ### Results
-1)
+
+1) Query B
+
+<img src="/question1/files/1B.jpg" width="1000"/>
+
+1) Query C
+
+<img src="/question1/files/1C.jpg" width="1000"/>
+
+1) Query D
+
+<img src="/question1/files/1D.jpg" width="1000"/>
+
+1) Query E
+
+<img src="/question1/files/1E.jpg" width="1000"/>
+
+1) Query F
+
+<img src="/question1/files/1F.jpg" width="1000"/>
