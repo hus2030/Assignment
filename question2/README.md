@@ -6,7 +6,7 @@
 
 ### The programm will then create database with tables , parse the csv files and insert into database with sql bulk copy method
 
-### The files with errors will be moved to error folder , otherwise to processed folder. Bpth folders are at the same location as files folder
+### The files with errors will be moved to error folder , otherwise to processed folder. Both folders are at the same location as files folder
 
 ### End results in database , 1000 rows total
 
