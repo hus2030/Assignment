@@ -1,11 +1,16 @@
 
-
+def create_database(conn):
+    cursor = conn.cursor()
+    #Creating the database
+    cursor.execute('''
+     CREATE DATABASE [question1];
+     ''')
+    conn.commit()
 
 def create_tables(conn):
     cursor = conn.cursor()
-
+    # Creating the tables
     cursor.execute('''
-    
      CREATE TABLE question1.dbo.StagingGame (
             game_id INTEGER IDENTITY(1,1) PRIMARY KEY,
             calendar_date varchar(max)  NULL,
