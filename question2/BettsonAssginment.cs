@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -194,8 +194,6 @@ namespace Question2
                         string destination = source.Replace("FILES", "PROCCESSED");
                         Console.WriteLine("Moving file to processed folder ");
                         System.IO.File.Copy(source, destination,true);
-                        // Inserting data into the created table
-                        InsertData(d, conn);
                     }
 
                 }
