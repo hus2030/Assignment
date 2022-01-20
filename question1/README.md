@@ -30,24 +30,24 @@
 
 
 
-### Results
+## Results
 
-1) Query B
+### 1) Query B
 
 <img src="/question1/files/1B.jpeg" width="1000"/>
 
-1) Query C
+### 2) Query C
 
 <img src="/question1/files/1C.jpeg" width="1000"/>
 
-1) Query D
+### 3) Query D
 
 <img src="/question1/files/1D.jpeg" width="1000"/>
 
-1) Query E
+### 4) Query E
 
 <img src="/question1/files/1E.jpeg" width="1000"/>
 
-1) Query F
+### 5) Query F
 
 <img src="/question1/files/1F.jpeg" width="1000"/>
