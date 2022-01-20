@@ -31,20 +31,20 @@
 
 1) Query B
 
-<img src="/question1/files/1B.jpg" width="1000"/>
+<img src="/question1/files/1B.jpeg" width="1000"/>
 
 1) Query C
 
-<img src="/question1/files/1C.jpg" width="1000"/>
+<img src="/question1/files/1C.jpeg" width="1000"/>
 
 1) Query D
 
-<img src="/question1/files/1D.jpg" width="1000"/>
+<img src="/question1/files/1D.jpeg" width="1000"/>
 
 1) Query E
 
-<img src="/question1/files/1E.jpg" width="1000"/>
+<img src="/question1/files/1E.jpeg" width="1000"/>
 
 1) Query F
 
-<img src="/question1/files/1F.jpg" width="1000"/>
+<img src="/question1/files/1F.jpeg" width="1000"/>
