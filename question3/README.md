@@ -1,7 +1,7 @@
 # Question 3
 
 ### - this part assumes that you already have AdventureWorksDatabase recovered in sql server
-### - pip install requirments.txt 
+### - pip install -r requirments.txt 
 ### - update  connection.ini file with sql server name 
 ### - then python main.py to run the application 
 ### - then check the dbo.CustomerDim and dbo.FactSalesOrder tables for data
