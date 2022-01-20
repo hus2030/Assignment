@@ -10,4 +10,4 @@
 
 ### end results in database 
 
-<img src="Assignment/question2/result.jpeg" width="128"/>
+<img src="/question2/result.jpeg" width="128"/>
