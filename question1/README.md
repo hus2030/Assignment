@@ -1,7 +1,7 @@
 # Question 1
 
 ### pip install requirments.txt 
-### Update  connection.ini file with server name and the path of csv files for DepositTransaction(Question1a.csv) and GamePlayTransaction(Question1b.csv)
+### Update  connection.ini file with sql server name and the path of csv files for DepositTransaction(Question1a.csv) and GamePlayTransaction(Question1b.csv)
 ### then python main.py to run the application 
 ### it will output the query results in the console . The results are provided here too
 
@@ -9,7 +9,7 @@
 1) I seperated the csv sheets to different files and uploaded them here (/question1/files/)
 2) the path to the csv files should be specified in the configuration ini file
 3) the server name for the database connection screen should also be specified in ini file
-4) The programm will autamtically create all the neccesary tables
+4) The programm will autamtically create the database and all the neccesary tables
 
 ### Steps :
 1) creation of all neccesary tables (staging tables and main tables from the data model)
