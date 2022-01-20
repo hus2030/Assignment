@@ -18,14 +18,17 @@
 4) then the output of the required queries is printed 
 
 
-### Data Model
+## Data Model
 
 <img src="/question1/files/DataModel.jpg" width="1000"/>
 
-### Notes
-1) Ideally we should also have provider tables but I ommitted that for the sake of simplicity
+## Notes
+### 1) Ideally we should also have provider tables but I ommitted that for the sake of simplicity
 ### 2) customer emails in 2 sheets were the same but with spelling error (.com in gameplayTr. and .om in depositTr.) , I didnt fix that , just considered them different customers for the sake of simplicity
-3) some product names were NULL , i considered Null as different product
+### 3) some product names were NULL , i considered Null as different product
+
+
+
 
 ### Results
 
