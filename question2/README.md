@@ -1,6 +1,6 @@
 # Question 2 
 
-## The consol app is in Question2 folder
+# The project is in Question2 folder
 
 ### Need to connect to sql server database , "Data Source=localhost\SQLEXPRESS; Integrated Security= true" is my default connection string
 
