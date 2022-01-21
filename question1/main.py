@@ -24,7 +24,10 @@ def main():
     staging_fill(conn, deposit_link, gameplay_link)
     print("Populating main tables...")
     populate_tables(conn)
+    # Viewing results
     view(conn)
-
+    # Closing connection
+    conn.close() 
+        
 if __name__ == "__main__":
     main()
