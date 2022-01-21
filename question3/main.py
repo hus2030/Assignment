@@ -13,11 +13,16 @@ def main():
                           'Trusted_Connection=yes;')
    #Connecting to db and running all the functions
     create_dim(conn)
+    
     create_fact(conn)
+    
     populate_dims(conn)
+    
     populate_facts(conn)
+    
     print("Finished")
-
+    # Closing connection
+    conn.close() 
 
 if __name__ == "__main__":
     main()
